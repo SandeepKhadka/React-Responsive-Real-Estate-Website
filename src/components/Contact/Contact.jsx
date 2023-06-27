@@ -19,7 +19,7 @@ const Contact = () => {
           </span>
           <div className="flexColStart contactModes">
             {/* first row */}
-            <div className="flexColStart row">
+            <div className="flexStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
@@ -31,6 +31,44 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flexCenter button">Call Now</div>
+              </div>
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Chat</span>
+                    <span className="secondaryText">021 123 145 14</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Chat Now</div>
+              </div>
+            </div>
+            <div className="flexStart row">
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Video Call</span>
+                    <span className="secondaryText">021 123 145 14</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Video Call Now</div>
+              </div>
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <HiChatBubbleBottomCenter size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Message</span>
+                    <span className="secondaryText">021 123 145 14</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Message Now</div>
               </div>
             </div>
           </div>
